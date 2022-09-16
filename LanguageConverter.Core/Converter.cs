@@ -1,4 +1,4 @@
-﻿namespace LanguageConverter.Core
+﻿namespace MalayalamConverter.Core
 {
     using System.Text;
     using System.Text.Encodings;
@@ -19,7 +19,7 @@
                 var matchedMapping = mappingList.FirstOrDefault(q => q.key.Equals(asciiChar.ToString(), StringComparison.OrdinalIgnoreCase));
                 if (matchedMapping != null)
                 {
-                    var destination = matchedMapping.value;
+                    var destination = matchedMapping.value.Replace("\r", string.Empty);
                     if (asciiChar == 10)
                     {
                         malayalamUnicode.Append('\n');

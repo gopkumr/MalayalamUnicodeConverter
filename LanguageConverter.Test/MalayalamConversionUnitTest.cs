@@ -1,4 +1,4 @@
-﻿namespace LanguageConverter.Test
+﻿namespace MalayalamConverter.Test
 {
     public class Tests
     {
@@ -12,11 +12,11 @@
         {
             var malayalamunitcode = "മലയലം";
             var ascii= "aebew";
-            var mapping = LanguageConverter.Core.MalayalamFonts.GetMapContentForFont("ML-TTKarthika Bold");
+            var mapping = MalayalamConverter.Core.MalayalamFonts.GetMapContentForFont("ML-TTKarthika Bold");
 
-            var convertedText = LanguageConverter.Core.Converter.ConvertAsciiToMalayalamUnicode(ascii, mapping);
+            var convertedText = MalayalamConverter.Core.Converter.ConvertAsciiToMalayalamUnicode(ascii, mapping);
 
-            Assert.AreEqual(malayalamunitcode, convertedText);
+            Assert.That(malayalamunitcode.Equals(convertedText));
 ;
         }
     }

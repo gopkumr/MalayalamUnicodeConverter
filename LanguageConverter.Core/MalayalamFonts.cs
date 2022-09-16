@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LanguageConverter.Core
+namespace MalayalamConverter.Core
 {
     public class MalayalamFonts
     {
