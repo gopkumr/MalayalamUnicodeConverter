@@ -1,0 +1,75 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="FontTemplateMapping.json" />
+    <None Remove="mapfile\1.map" />
+    <None Remove="mapfile\10.map" />
+    <None Remove="mapfile\11.map" />
+    <None Remove="mapfile\12.map" />
+    <None Remove="mapfile\13.map" />
+    <None Remove="mapfile\14.map" />
+    <None Remove="mapfile\15.map" />
+    <None Remove="mapfile\16.map" />
+    <None Remove="mapfile\17.map" />
+    <None Remove="mapfile\18.map" />
+    <None Remove="mapfile\19.map" />
+    <None Remove="mapfile\2.map" />
+    <None Remove="mapfile\20.map" />
+    <None Remove="mapfile\21.map" />
+    <None Remove="mapfile\22.map" />
+    <None Remove="mapfile\3.map" />
+    <None Remove="mapfile\5.map" />
+    <None Remove="mapfile\6.map" />
+    <None Remove="mapfile\7.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="FontTemplateMapping.json" />
+    <EmbeddedResource Include="mapfile\1.map" />
+    <EmbeddedResource Include="mapfile\10.map" />
+    <EmbeddedResource Include="mapfile\11.map" />
+    <EmbeddedResource Include="mapfile\12.map" />
+    <EmbeddedResource Include="mapfile\13.map" />
+    <EmbeddedResource Include="mapfile\14.map" />
+    <EmbeddedResource Include="mapfile\15.map" />
+    <EmbeddedResource Include="mapfile\16.map" />
+    <EmbeddedResource Include="mapfile\17.map" />
+    <EmbeddedResource Include="mapfile\18.map" />
+    <EmbeddedResource Include="mapfile\19.map" />
+    <EmbeddedResource Include="mapfile\2.map" />
+    <EmbeddedResource Include="mapfile\20.map" />
+    <EmbeddedResource Include="mapfile\21.map" />
+    <EmbeddedResource Include="mapfile\22.map" />
+    <EmbeddedResource Include="mapfile\3.map" />
+    <EmbeddedResource Include="mapfile\5.map" />
+    <EmbeddedResource Include="mapfile\6.map" />
+    <EmbeddedResource Include="mapfile\7.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

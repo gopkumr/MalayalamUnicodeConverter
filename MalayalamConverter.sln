@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MalayalamConverter.Core", "LanguageConverter.Core\MalayalamConverter.Core.csproj", "{BAC0DE29-983D-40E9-BDA6-F531325FB896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MalayalamConverter.Test", "LanguageConverter.Test\MalayalamConverter.Test.csproj", "{AE0431E4-C6DB-465D-B76A-38CCBDB62713}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAC0DE29-983D-40E9-BDA6-F531325FB896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC0DE29-983D-40E9-BDA6-F531325FB896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC0DE29-983D-40E9-BDA6-F531325FB896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC0DE29-983D-40E9-BDA6-F531325FB896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE0431E4-C6DB-465D-B76A-38CCBDB62713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE0431E4-C6DB-465D-B76A-38CCBDB62713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE0431E4-C6DB-465D-B76A-38CCBDB62713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE0431E4-C6DB-465D-B76A-38CCBDB62713}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D407322-DBFC-4397-A4F5-FBB777EC8B7D}
+	EndGlobalSection
+EndGlobal

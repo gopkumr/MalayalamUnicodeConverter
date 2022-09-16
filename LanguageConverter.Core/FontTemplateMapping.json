@@ -1,0 +1,1906 @@
+[
+  {
+    "font": "MLB-Ambili-BoldItalic",
+    "map": "1"
+  },
+  {
+    "font": "ML-TTDevika Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-Nandini-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTPoornima Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTChandrika Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML1-Ambili-Normal",
+    "map": "4"
+  },
+  {
+    "font": "ML-Aswathi-Normal",
+    "map": "5"
+  },
+  {
+    "font": "ML-Malavika-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-Leela-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML1-Karthika-Italic",
+    "map": "4"
+  },
+  {
+    "font": "ML-Thunchan-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTAtchu Bold",
+    "map": "2"
+  },
+  {
+    "font": "GIST-MLTTMalavika Normal",
+    "map": "6"
+  },
+  {
+    "font": "ML-TTChandrika BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML1-Indulekha-Bold",
+    "map": "4"
+  },
+  {
+    "font": "ML-TTGauriHeavy Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Gopika-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-Aswathi-BoldItalic",
+    "map": "5"
+  },
+  {
+    "font": "ML-TTGopika Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Kanika-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-Jaya-Bold",
+    "map": "5"
+  },
+  {
+    "font": "ML-Aparna-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-Visakham-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-Ambili-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTAathira Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-Indulekha-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-Revathi-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTTheyyam BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "MLB-Ambili-Italic",
+    "map": "1"
+  },
+  {
+    "font": "ML-Sugatha-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-Ambili-Normal",
+    "map": "3"
+  },
+  {
+    "font": "MLB-TTAmbili Normal",
+    "map": "7"
+  },
+  {
+    "font": "ML-TTNandini Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTIndulekha Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTVarsha Normal",
+    "map": "8"
+  },
+  {
+    "font": "ML-TTAyilyamBold Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-Yashasri-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTKarthika Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTMalavika BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Nalini-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTNanditha Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Malavika-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTSugatha Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-Geethika-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-Sugatha-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML1-TTIndulekha Bold",
+    "map": "9"
+  },
+  {
+    "font": "MLB-Indulekha-Bold-",
+    "map": "10"
+  },
+  {
+    "font": "MLB-Karthika-Bold",
+    "map": "1"
+  },
+  {
+    "font": "ML1-Ambili-Italic",
+    "map": "4"
+  },
+  {
+    "font": "ML-Gauri-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTTheyyam Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-Jyothy-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTPooram Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Leela-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTChandrika Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Malavika-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML-GauriHeavy-Normal",
+    "map": "3"
+  },
+  {
+    "font": "MLB-TTAswathi BoldItalic",
+    "map": "7"
+  },
+  {
+    "font": "ML-TTAshtamudi Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-LeelaHeavy-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTRavivarma Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTIndulekha Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-Jyothy-Normal",
+    "map": "3"
+  },
+  {
+    "font": "GIST-MLTTRevathi Normal-",
+    "map": "11"
+  },
+  {
+    "font": "ML-Periyar-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML-Vishu-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML-Devika-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-Nila-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTNanditha Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-Varsha-Bold",
+    "map": "3"
+  },
+  {
+    "font": "MLB-Revathi-Normal",
+    "map": "1"
+  },
+  {
+    "font": "ML-Gauri-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-Theyyam-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML-Nila-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTVaisali Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTIndulekhaHeavy Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML1-TTRevathi Bold",
+    "map": "9"
+  },
+  {
+    "font": "ML-TTThunchan Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTThiruvathira BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "MLB-TTIndulekha Bold",
+    "map": "7"
+  },
+  {
+    "font": "ML-TTBhavana Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-Leela-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTVisakham Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTKamini Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-NarmadaExBold-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML-ChithiraHeavy-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTYashasri Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-Thiruvathira-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-Nanditha-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTLeela Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTJyothy Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Suparna-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-Ashtamudi-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML-Indulekha-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTJyothy Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTSwathyBold Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Kaumudi-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML-Anjali-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-Atchu-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTTheyyam Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTAathira Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTGauri BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML1-TTIndulekha Normal",
+    "map": "9"
+  },
+  {
+    "font": "ML-Theyyam-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-Chandrika-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTVarsha BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTRavivarma Normal-",
+    "map": "12"
+  },
+  {
+    "font": "ML-TTGeethika BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTLeela BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Nanditha-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML1-Aswathi-Bold",
+    "map": "4"
+  },
+  {
+    "font": "ML-Sankara-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-Bhavana-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-Suparna-Bold",
+    "map": "3"
+  },
+  {
+    "font": "MLB-Karthika-Normal",
+    "map": "1"
+  },
+  {
+    "font": "ML-TTRohini Bold",
+    "map": "2"
+  },
+  {
+    "font": "MLB-TTRevathi BoldItalic-",
+    "map": "13"
+  },
+  {
+    "font": "ML-Kaumudi-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTThiruvathira Italic",
+    "map": "2"
+  },
+  {
+    "font": "MLB-Karthika-BoldItalic",
+    "map": "1"
+  },
+  {
+    "font": "MLB-TTAswathi Bold",
+    "map": "7"
+  },
+  {
+    "font": "ML-VeenaHeavy-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTSarada Normal-",
+    "map": "14"
+  },
+  {
+    "font": "ML-Aathira-Normal",
+    "map": "3"
+  },
+  {
+    "font": "MLB-TTIndulekha Italic",
+    "map": "7"
+  },
+  {
+    "font": "ML-TTKanika BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Varsha-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML1-Indulekha-Normal",
+    "map": "4"
+  },
+  {
+    "font": "ML-TTAtchu Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTBhavana Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTAshtamudi Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-Revathi-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-Karthika-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTKaumudi BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Gopika-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTKanika Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTJyotsna Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTPeriyar Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-AyilyamBold-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTKala BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTAyilyamBold Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTChithiraHeavy Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML1-TTAmbili Bold",
+    "map": "9"
+  },
+  {
+    "font": "MLB-TTAmbili Italic",
+    "map": "7"
+  },
+  {
+    "font": "ML-TTAswathi Italic-",
+    "map": "15"
+  },
+  {
+    "font": "ML-BeckalBold-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML1-Karthika-Normal",
+    "map": "4"
+  },
+  {
+    "font": "ML-TTAmbili Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-Bhavana-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTAnjali BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTNanditha Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTGauriHeavy Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-Onam-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-Theyyam-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML1-TTAswathi Italic",
+    "map": "9"
+  },
+  {
+    "font": "ML-TTRevathi Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTNila BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Ambili-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML1-TTAswathi BoldItalic",
+    "map": "9"
+  },
+  {
+    "font": "ML-Periyar-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML1-Revathi-Bold",
+    "map": "4"
+  },
+  {
+    "font": "ML-Periyar-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTMangalaExBold Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Karthika-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTSurya Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-Ashtamudi-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-Kamini-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML-Nanditha-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTRevathi Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTRevathi Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTAnakha Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTVishu Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTAmbili Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTPeriyar BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTAshtamudiExBold Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTJaya BoldItalic-",
+    "map": "15"
+  },
+  {
+    "font": "MLB-Ambili-Bold",
+    "map": "1"
+  },
+  {
+    "font": "ML-Thunchan-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTRavivarma Italic-",
+    "map": "16"
+  },
+  {
+    "font": "ML-Nandini-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML1-TTKarthika Italic",
+    "map": "9"
+  },
+  {
+    "font": "ML-Chandrika-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTAshtamudiExBold Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-Bhavana-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTVishu Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTLeelaHeavy Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTSankara BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTLeela Normal",
+    "map": "2"
+  },
+  {
+    "font": "MLB-Indulekha-BoldItalic-",
+    "map": "10"
+  },
+  {
+    "font": "ML-TTMadhaviExBold Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Bhavana-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-Ambili-Italic",
+    "map": "3"
+  },
+  {
+    "font": "GIST-MLTTKarthika Normal-",
+    "map": "11"
+  },
+  {
+    "font": "ML-TTJaya Normal-",
+    "map": "15"
+  },
+  {
+    "font": "ML-TTKanika Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-Aparna-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-LeelaHeavy-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML-NarmadaExBold-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML-Poornima-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML-Varsha-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTKarthika Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-Sabari-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "MLB-Revathi-Italic",
+    "map": "1"
+  },
+  {
+    "font": "ML-TTKaumudi Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTVisakham Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTNarmadaExBold Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTAparna Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTAmbili BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-VeenaHeavy-Normal",
+    "map": "3"
+  },
+  {
+    "font": "MLB-TTIndulekha BoldItalic",
+    "map": "7"
+  },
+  {
+    "font": "ML-Revathi-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML-SwathyBold-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTVishu BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Thiruvathira-Italic",
+    "map": "3"
+  },
+  {
+    "font": "MLB-Indulekha-Normal",
+    "map": "1"
+  },
+  {
+    "font": "ML-TTPeriyar Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-Visakham-Bold",
+    "map": "3"
+  },
+  {
+    "font": "MLB-Aswathi-Bold",
+    "map": "1"
+  },
+  {
+    "font": "ML-TTVeenaHeavy Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Yashasri-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTRohini BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Jaya-BoldItalic",
+    "map": "5"
+  },
+  {
+    "font": "ML-Sabari-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-Sruthy-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "MLB-Karthika-Italic",
+    "map": "1"
+  },
+  {
+    "font": "ML-TTSruthy Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-Chithira-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTRevathi BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTVisakham Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTKanika Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Thiruvathira-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTAshtamudi BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML1-TTAmbili Normal",
+    "map": "9"
+  },
+  {
+    "font": "ML-Vinay-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML1-Karthika-Bold",
+    "map": "4"
+  },
+  {
+    "font": "ML-IndulekhaHeavy-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-Sruthy-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML-AshtamudiExBold-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML1-TTRevathi BoldItalic",
+    "map": "9"
+  },
+  {
+    "font": "ML-Sarada-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-Kanika-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-Chandrika-Bold",
+    "map": "3"
+  },
+  {
+    "font": "MLB-TTKarthika Bold",
+    "map": "7"
+  },
+  {
+    "font": "ML-TTBeckalBold Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Thunchan-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-Surya-Normal-",
+    "map": "17"
+  },
+  {
+    "font": "ML-MadhaviExBold-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML-Theyyam-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML1-TTKarthika BoldItalic",
+    "map": "9"
+  },
+  {
+    "font": "MLB-Aswathi-Italic",
+    "map": "1"
+  },
+  {
+    "font": "ML-TTVisakham BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML1-Aswathi-BoldItalic",
+    "map": "4"
+  },
+  {
+    "font": "ML-TTKaumudi Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTYashasri BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-IndulekhaHeavy-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-Visakham-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML-BeckalBold-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTJyothy BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTAswathi BoldItalic-",
+    "map": "15"
+  },
+  {
+    "font": "ML-Guruvayur-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTNalini Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTJyotsna BoldItalic-",
+    "map": "16"
+  },
+  {
+    "font": "ML1-Ambili-BoldItalic",
+    "map": "4"
+  },
+  {
+    "font": "ML-TTSabari Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTVeenaHeavy Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-Kanika-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML-Revathi-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTMangalaExBold Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTKarthika BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTSurya Normal-",
+    "map": "16"
+  },
+  {
+    "font": "ML-Nanditha-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML-Anakha-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTSuparna Bold",
+    "map": "2"
+  },
+  {
+    "font": "MLB-TTAswathi Normal",
+    "map": "7"
+  },
+  {
+    "font": "ML-TTSabari BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Indulekha-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-Aswathi-Italic",
+    "map": "5"
+  },
+  {
+    "font": "ML-Nandini-Italic",
+    "map": "3"
+  },
+  {
+    "font": "MLB-TTRevathi Italic",
+    "map": "7"
+  },
+  {
+    "font": "ML-TTIndulekha BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTNandini BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTVarsha Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-Sruthy-Italic",
+    "map": "3"
+  },
+  {
+    "font": "MLB-Aswathi-BoldItalic",
+    "map": "1"
+  },
+  {
+    "font": "ML-Ravivarma-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTThunchan Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Periyar-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-Karthika-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-Ashtamudi-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTSankara Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-Nalini-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTPooram Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTSugatha BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Guruvayur-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTNila Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTBhavana Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTGopika Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTNandini Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTKala Bold",
+    "map": "2"
+  },
+  {
+    "font": "GIST-MLTTAshtamudi Normal-",
+    "map": "18"
+  },
+  {
+    "font": "ML-Mayoori-BoldItalic-",
+    "map": "19"
+  },
+  {
+    "font": "ML-TTMalavika Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-Jyothy-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-Jyotsna-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTGopika Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-Vaisali-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-Aathira-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTSruthy Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTMayoori Bold-",
+    "map": "20"
+  },
+  {
+    "font": "MLB-TTAswathi Italic",
+    "map": "7"
+  },
+  {
+    "font": "ML-TTAswathi Normal-",
+    "map": "15"
+  },
+  {
+    "font": "ML-TTChithiraHeavy BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Rohini-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTTheyyam Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-Aswathi-Bold",
+    "map": "5"
+  },
+  {
+    "font": "ML-TTIndulekha Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-Jaya-Normal",
+    "map": "5"
+  },
+  {
+    "font": "ML-Mayoori-Bold-",
+    "map": "19"
+  },
+  {
+    "font": "ML-TTNanditha BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Nalini-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-Aathira-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTPeriyar Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-Thakazhi-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTKaumudi Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTAshtamudi Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTJyothy Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-MangalaExBold-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTChandrika Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-Anakha-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTAparna BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Atchu-Italic",
+    "map": "3"
+  },
+  {
+    "font": "MLB-TTRevathi Bold",
+    "map": "7"
+  },
+  {
+    "font": "ML-Sankara-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTSruthy Bold",
+    "map": "2"
+  },
+  {
+    "font": "MLB-TTIndulekha Normal",
+    "map": "7"
+  },
+  {
+    "font": "ML-TTAnjali Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-Chithira-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTVishu Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-Ravivarma-Normal-",
+    "map": "21"
+  },
+  {
+    "font": "ML1-TTRevathi Normal",
+    "map": "9"
+  },
+  {
+    "font": "ML-Jaya-Italic",
+    "map": "5"
+  },
+  {
+    "font": "ML1-Aswathi-Italic",
+    "map": "4"
+  },
+  {
+    "font": "ML-TTKeerthi BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTAathira BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-MadhaviExBold-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML-MangalaExBold-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTNalini Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTGuruvayur Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTPoornima Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTBeckalBold Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTThunchan Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-ChithiraHeavy-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "MLB-TTKarthika BoldItalic",
+    "map": "7"
+  },
+  {
+    "font": "MLB-Ambili Bold",
+    "map": "7"
+  },
+  {
+    "font": "ML-Anjali-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-Nalini-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML-GauriHeavy-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTGeethika Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-Ravivarma-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTSruthy BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Ravivarma-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML1-TTRevathi Italic",
+    "map": "9"
+  },
+  {
+    "font": "ML-SwathyBold-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML-Pooram-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTThunchan BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTNarmadaExBold Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Poornima-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-Thiruvathira-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTLeelaHeavy Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Jyothy-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML1-Indulekha-BoldItalic",
+    "map": "4"
+  },
+  {
+    "font": "ML-TTMalavika Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTMayoori BoldItalic-",
+    "map": "20"
+  },
+  {
+    "font": "ML-TTAswathi Bold-",
+    "map": "15"
+  },
+  {
+    "font": "ML-TTVaisali BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Vishu-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTOnam Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTAtchu BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML1-Indulekha-Italic",
+    "map": "4"
+  },
+  {
+    "font": "ML1-Aswathi-Normal",
+    "map": "4"
+  },
+  {
+    "font": "ML-Gopika-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTPooram BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Jyotsna-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTRavivarma BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTGuruvayur BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Gopika-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTPooram Normal",
+    "map": "2"
+  },
+  {
+    "font": "MLB-TTKarthika Italic",
+    "map": "7"
+  },
+  {
+    "font": "ML-Indulekha-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTMadhaviExBold Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-Rohini-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTThiruvathira Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-Vishu-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML-Geethika-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTGauri Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-Sarada-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTMalavika Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTSuparna BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Leela-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML-Karthika-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML-Keerthi-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-Pooram-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-Varsha-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTJaya Bold-",
+    "map": "15"
+  },
+  {
+    "font": "ML-TTBhavana BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTSarada Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTIndulekhaHeavy BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "MLB-TTAmbili BoldItalic-",
+    "map": "22"
+  },
+  {
+    "font": "ML-Vinay-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML1-Karthika-BoldItalic",
+    "map": "4"
+  },
+  {
+    "font": "ML-Onam-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-Pooram-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-Surya-Bold",
+    "map": "3"
+  },
+  {
+    "font": "GIST-MLTTAswathi Normal-",
+    "map": "18"
+  },
+  {
+    "font": "ML-Ashtamudi-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML1-TTKarthika Bold",
+    "map": "9"
+  },
+  {
+    "font": "ML-TTChithira Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-Aathira-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML1-TTIndulekha Italic",
+    "map": "9"
+  },
+  {
+    "font": "MLB-Ambili-Normal",
+    "map": "1"
+  },
+  {
+    "font": "ML-TTVinay Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML1-Revathi-BoldItalic",
+    "map": "4"
+  },
+  {
+    "font": "ML-TTNalini Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTThiruvathira Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTOnam BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML1-TTAmbili Italic",
+    "map": "9"
+  },
+  {
+    "font": "ML-TTChithira Normal",
+    "map": "2"
+  },
+  {
+    "font": "MLB-TTKarthika Normal",
+    "map": "7"
+  },
+  {
+    "font": "ML-TTLeela Italic",
+    "map": "2"
+  },
+  {
+    "font": "MLB-Revathi-Bold",
+    "map": "1"
+  },
+  {
+    "font": "ML-Kala-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTAathira Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Thunchan-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML1-Revathi-Normal",
+    "map": "4"
+  },
+  {
+    "font": "ML1-TTIndulekha BoldItalic",
+    "map": "9"
+  },
+  {
+    "font": "ML-TTJaya Bold-",
+    "map": "15"
+  },
+  {
+    "font": "ML-TTNalini BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Chandrika-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "MLB-TTRevathi Normal",
+    "map": "7"
+  },
+  {
+    "font": "ML-Kala-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTKarthika Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Vishu-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML1-TTAmbili BoldItalic",
+    "map": "9"
+  },
+  {
+    "font": "ML-Malavika-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML-AyilyamBold-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML-Visakham-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML-Devika-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-AshtamudiExBold-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML-Kanika-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML-Nandini-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML1-TTKarthika Normal",
+    "map": "9"
+  },
+  {
+    "font": "ML-TTThakazhi Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTAtchu Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML-Atchu-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-Keerthi-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-Kaumudi-Normal",
+    "map": "3"
+  },
+  {
+    "font": "MLB-Revathi-BoldItalic",
+    "map": "1"
+  },
+  {
+    "font": "ML-Vaisali-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTGopika BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTDevika Bold",
+    "map": "2"
+  },
+  {
+    "font": "MLB-Aswathi-Normal",
+    "map": "1"
+  },
+  {
+    "font": "MLB-Indulekha-Italic",
+    "map": "1"
+  },
+  {
+    "font": "ML-Kaumudi-BoldItalic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTAnakha BoldItalic",
+    "map": "2"
+  },
+  {
+    "font": "ML-TTVinay Normal",
+    "map": "2"
+  },
+  {
+    "font": "ML1-TTAswathi Bold",
+    "map": "9"
+  },
+  {
+    "font": "ML-Pooram-Italic",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTAmbili Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML1-Revathi-Italic",
+    "map": "4"
+  },
+  {
+    "font": "ML1-Ambili-Bold",
+    "map": "4"
+  },
+  {
+    "font": "ML-Atchu-Normal",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTNandini Bold",
+    "map": "2"
+  },
+  {
+    "font": "ML-Sruthy-Bold",
+    "map": "3"
+  },
+  {
+    "font": "ML-TTVarsha Italic",
+    "map": "2"
+  },
+  {
+    "font": "ML1-TTAswathi Normal",
+    "map": "9"
+  },
+  {
+    "font": "ML-TTKeerthi Bold",
+    "map": "2"
+  }
+]
