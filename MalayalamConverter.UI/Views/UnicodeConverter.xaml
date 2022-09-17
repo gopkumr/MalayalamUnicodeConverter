@@ -2,26 +2,49 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MalayalamConverter.UI.Views.UnicodeConverter"
-             Title="Malayalam Converter">
- 
+             Title="">
+    <ContentPage.MenuBarItems>
+        <MenuBarItem Text="File">
+          <MenuFlyoutItem x:Name="mnuLoadFile" Text="Load file"
+                            Clicked="mnuLoadFile_Clicked" />
+          <MenuFlyoutItem x:Name="mnuExit" Text="Exit"
+                            Clicked="mnuExit_Clicked" />
+        </MenuBarItem>
+        <MenuBarItem Text="Options">
+            <MenuFlyoutItem x:Name="mnuConvert" Text="Convert"
+                            Clicked="mnuConvert_Clicked" />
+            <MenuFlyoutSubItem Text="Change Language">
+                <MenuFlyoutItem Text="Karthika"
+                                Command="{Binding ChangeLocationCommand}"
+                                CommandParameter="Redmond" />
+                <MenuFlyoutItem Text="Revathy"
+                                Command="{Binding ChangeLocationCommand}"
+                                CommandParameter="London" />
+                <MenuFlyoutItem Text="Vishu"
+                                Command="{Binding ChangeLocationCommand}"
+                                CommandParameter="Berlin"/>
+            </MenuFlyoutSubItem>
+            <MenuFlyoutItem Text="Add Location"
+                            Command="{Binding AddLocationCommand}" />
+        </MenuBarItem>
+    </ContentPage.MenuBarItems>
+    
     <VerticalStackLayout>
         <Picker x:Name="lstFont" Title="Select a malayalam font" ItemsSource="{Binding Fonts}" ItemDisplayBinding="{Binding Name}" Margin="15,0,0,20"  />
         <Grid ColumnDefinitions="*, *">
             <Grid.RowDefinitions>
-                <RowDefinition Height="500"/>
-                <RowDefinition Height="60" />
+                <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             
             <VerticalStackLayout >
                 <Label Text="Malayalam Ascii" Margin="15,0,0,0" />
-                <Editor x:Name="txtSourceText" MinimumHeightRequest="450" Placeholder="Enter the source ascii text" Margin="10,5,10,10"  />
+                <Editor x:Name="txtSourceText" MinimumHeightRequest="550" Placeholder="Enter the source ascii text" Margin="10,5,10,10"  />
             </VerticalStackLayout>
             
             <VerticalStackLayout Grid.Column="1" >
                 <Label Text="Malayalam Unicode" Margin="15,0,0,0" />
-                <Editor x:Name="txtDesinationText" MinimumHeightRequest="450" IsReadOnly="True" Margin="10,5,10,10" />
+                <Editor x:Name="txtDesinationText" MinimumHeightRequest="550" IsReadOnly="True" Margin="10,5,10,10" />
             </VerticalStackLayout>
-            <Button x:Name="btnConvert" Text="Convert" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="10" WidthRequest="250" Clicked="btnConvert_Clicked"  />
         </Grid>
     </VerticalStackLayout>
 </ContentPage>

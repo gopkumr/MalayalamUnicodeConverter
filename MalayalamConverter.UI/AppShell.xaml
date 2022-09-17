@@ -9,6 +9,6 @@
     <ShellContent
         Title="Malayalam Converter"
         ContentTemplate="{DataTemplate local:UnicodeConverter}"
-        Route="MainPage" />
+        Route="UnicodeConverter" />
 
 </Shell>
