@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MalayalamConverter.Core", "LanguageConverter.Core\MalayalamConverter.Core.csproj", "{BAC0DE29-983D-40E9-BDA6-F531325FB896}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MalayalamConverter.Core", "MalayalamConverter.Core\MalayalamConverter.Core.csproj", "{BAC0DE29-983D-40E9-BDA6-F531325FB896}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MalayalamConverter.Test", "LanguageConverter.Test\MalayalamConverter.Test.csproj", "{AE0431E4-C6DB-465D-B76A-38CCBDB62713}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MalayalamConverter.Test", "MalayalamConverter.Test\MalayalamConverter.Test.csproj", "{AE0431E4-C6DB-465D-B76A-38CCBDB62713}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MalayalamConverter.UI", "MalayalamConverter.UI\MalayalamConverter.UI.csproj", "{5CC56DA5-6369-4337-9B2B-E4CFCC0B09DA}"
 EndProject

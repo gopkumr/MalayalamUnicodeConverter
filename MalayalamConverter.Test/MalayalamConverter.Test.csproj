@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LanguageConverter.Core\MalayalamConverter.Core.csproj" />
+    <ProjectReference Include="..\MalayalamConverter.Core\MalayalamConverter.Core.csproj" />
   </ItemGroup>
 
 </Project>
