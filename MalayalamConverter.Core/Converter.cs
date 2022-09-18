@@ -12,7 +12,7 @@
             Encoding sourceEncoding = Encoding.ASCII;
             byte[] sourceBytes = sourceEncoding.GetBytes(inputstring);
             string h = String.Empty;
-            var mappingList = mapping.Select(q => new { key = q.Split('=').First(), value = q.Split('=').Skip(1).First() });
+            var mappingList = mapping.Select(q => new { key = q.Split('=').First(), value = q.Substring(q.IndexOf('=') + 1, q.Length - (q.IndexOf('=') + 1)) }).ToList();
 
             foreach (var asciiChar in sourceBytes)
             {
@@ -20,24 +20,22 @@
                 if (matchedMapping != null)
                 {
                     var destination = matchedMapping.value.Replace("\r", string.Empty);
-                    if (asciiChar == 10)
-                    {
-                        malayalamUnicode.Append('\n');
-                    }
+
+                    if (characters.Contains(destination))
+                        h = destination;
                     else
                     {
-                        if (characters.Contains(destination))
-                            h = destination;
-                        else
+                        malayalamUnicode.Append(destination);
+                        if (!string.IsNullOrEmpty(h))
                         {
-                            malayalamUnicode.Append(destination);
-                            if (!string.IsNullOrEmpty(h))
-                            {
-                                malayalamUnicode.Append(h);
-                                h = string.Empty;
-                            }
+                            malayalamUnicode.Append(h);
+                            h = string.Empty;
                         }
                     }
+                }
+                else if (asciiChar == 10 || asciiChar == 13)
+                {
+                    malayalamUnicode.Append('\n');
                 }
 
             }

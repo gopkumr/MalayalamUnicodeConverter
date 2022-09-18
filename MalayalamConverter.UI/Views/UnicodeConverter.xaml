@@ -5,9 +5,19 @@
              Title="">
     <ContentPage.MenuBarItems>
         <MenuBarItem Text="File">
-          <MenuFlyoutItem x:Name="mnuLoadFile" Text="Load file"
+            <MenuFlyoutSubItem Text="Load">
+                <MenuFlyoutItem x:Name="mnuLoadFile" Text="Load ascii"
                             Clicked="mnuLoadFile_Clicked" />
-          <MenuFlyoutItem x:Name="mnuExit" Text="Exit"
+                <MenuFlyoutItem x:Name="mnuLoadWork" Text="Load work"
+                            Clicked="mnuLoadWork_Clicked" />
+            </MenuFlyoutSubItem>
+            <MenuFlyoutSubItem Text="Save">
+                <MenuFlyoutItem x:Name="mnuSave" Text="Save unicode"
+                            Clicked="mnuSave_Clicked" />
+                <MenuFlyoutItem x:Name="mnuSaveWork" Text="Save work"
+                            Clicked="mnuSaveWork_Clicked" />
+            </MenuFlyoutSubItem>
+            <MenuFlyoutItem x:Name="mnuExit" Text="Exit"
                             Clicked="mnuExit_Clicked" />
         </MenuBarItem>
         <MenuBarItem Text="Options">
@@ -28,19 +38,19 @@
                             Command="{Binding AddLocationCommand}" />
         </MenuBarItem>
     </ContentPage.MenuBarItems>
-    
+
     <VerticalStackLayout>
         <Picker x:Name="lstFont" Title="Select a malayalam font" ItemsSource="{Binding Fonts}" ItemDisplayBinding="{Binding Name}" Margin="15,0,0,20"  />
         <Grid ColumnDefinitions="*, *">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-            
+
             <VerticalStackLayout >
                 <Label Text="Malayalam Ascii" Margin="15,0,0,0" />
                 <Editor x:Name="txtSourceText" MinimumHeightRequest="550" Placeholder="Enter the source ascii text" Margin="10,5,10,10"  />
             </VerticalStackLayout>
-            
+
             <VerticalStackLayout Grid.Column="1" >
                 <Label Text="Malayalam Unicode" Margin="15,0,0,0" />
                 <Editor x:Name="txtDesinationText" MinimumHeightRequest="550" IsReadOnly="True" Margin="10,5,10,10" />

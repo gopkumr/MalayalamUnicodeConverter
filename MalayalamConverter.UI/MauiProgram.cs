@@ -1,4 +1,6 @@
-﻿namespace MalayalamConverter.UI
+﻿using Microsoft.Maui.LifecycleEvents;
+
+namespace MalayalamConverter.UI
 {
     public static class MauiProgram
     {
