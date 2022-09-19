@@ -9,7 +9,7 @@
         {
             string[] characters = { "\u0D46", "\u0D47", "\u0D48", "\u0D4D\u0D30" };
             StringBuilder malayalamUnicode = new();
-            Encoding sourceEncoding = Encoding.ASCII;
+            Encoding sourceEncoding = Encoding.Unicode;
             byte[] sourceBytes = sourceEncoding.GetBytes(inputstring);
             string h = String.Empty;
             var mappingList = mapping.Select(q => new { key = q.Split('=').First(), value = q.Substring(q.IndexOf('=') + 1, q.Length - (q.IndexOf('=') + 1)) }).ToList();

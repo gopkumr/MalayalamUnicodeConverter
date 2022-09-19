@@ -98,27 +98,6 @@ public partial class UnicodeConverter : ContentPage
         Application.Current.CloseWindow(Application.Current.MainPage.Window);
     }
 
-    private async void mnuConvert_Clicked(object sender, EventArgs e)
-    {
-        try
-        {
-            var sourceText = txtSourceText.Text;
-            var font = (lstFont.SelectedItem as MalayalamFont).Name;
-
-            var mapping = MalayalamConverter.Core.MalayalamFonts.GetMapContentForFont(font);
-
-            var convertedText = MalayalamConverter.Core.Converter.ConvertAsciiToMalayalamUnicode(sourceText, mapping);
-
-            txtDesinationText.Text = convertedText;
-
-            isDirty = true;
-        }
-        catch (Exception ex)
-        {
-            await DisplayAlert("Alert", $"Filed to convert: {ex.Message}", "OK");
-        }
-    }
-
     private async void mnuSave_Clicked(object sender, EventArgs e)
     {
         try
@@ -275,4 +254,24 @@ public partial class UnicodeConverter : ContentPage
         await streamWriter.WriteLineAsync(text);
     }
 
+    private async void btnConvert_Clicked(object sender, EventArgs e)
+    {
+        try
+        {
+            var sourceText = txtSourceText.Text;
+            var font = (lstFont.SelectedItem as MalayalamFont).Name;
+
+            var mapping = MalayalamConverter.Core.MalayalamFonts.GetMapContentForFont(font);
+
+            var convertedText = MalayalamConverter.Core.Converter.ConvertAsciiToMalayalamUnicode(sourceText, mapping);
+
+            txtDesinationText.Text = convertedText;
+
+            isDirty = true;
+        }
+        catch (Exception ex)
+        {
+            await DisplayAlert("Alert", $"Filed to convert: {ex.Message}", "OK");
+        }
+    }
 }

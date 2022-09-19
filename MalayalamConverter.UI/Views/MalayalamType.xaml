@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MalayalamConverter.UI.Views.MalayalamType"
+             Title="">
+
+    <VerticalStackLayout>
+        <HorizontalStackLayout>
+            <ActivityIndicator x:Name="spinner" IsRunning="False"  Margin="10,0,0,0"/>
+            <!--<Picker x:Name="lstFont" ItemsSource="{Binding Fonts}" ItemDisplayBinding="{Binding Name}" Margin="15,0,0,0" Title="Select a font" SelectedIndexChanged="lstFont_SelectedIndexChanged" />-->
+            <Switch IsToggled="false" x:Name="toggleSuggestions" Margin="10,0,0,0"  />
+        </HorizontalStackLayout>
+        <ScrollView Margin="20">
+            <VerticalStackLayout>
+                <Editor x:Name="txtTextArea" MinimumHeightRequest="800" Margin="10,10,10,10" AutoSize="TextChanges" TextChanged="Editor_TextChanged" IsSpellCheckEnabled="False" IsTextPredictionEnabled="False" />
+            </VerticalStackLayout>
+        </ScrollView>
+    </VerticalStackLayout>
+</ContentPage>

@@ -64,12 +64,19 @@
 		<!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
+	
+	<ItemGroup>
+	  <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
+	</ItemGroup>
 
 	<ItemGroup>
 	  <ProjectReference Include="..\MalayalamConverter.Core\MalayalamConverter.Core.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Views\MalayalamType.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\UnicodeConverter.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

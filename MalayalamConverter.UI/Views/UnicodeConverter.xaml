@@ -21,8 +21,6 @@
                             Clicked="mnuExit_Clicked" />
         </MenuBarItem>
         <MenuBarItem Text="Options">
-            <MenuFlyoutItem x:Name="mnuConvert" Text="Convert"
-                            Clicked="mnuConvert_Clicked" />
             <MenuFlyoutSubItem Text="Change Language">
                 <MenuFlyoutItem Text="Karthika"
                                 Command="{Binding ChangeLocationCommand}"
@@ -40,21 +38,26 @@
     </ContentPage.MenuBarItems>
 
     <VerticalStackLayout>
-        <Picker x:Name="lstFont" Title="Select a malayalam font" ItemsSource="{Binding Fonts}" ItemDisplayBinding="{Binding Name}" Margin="15,0,0,20"  />
-        <Grid ColumnDefinitions="*, *">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
+        <HorizontalStackLayout>
+            <Picker x:Name="lstFont" Title="Select a malayalam font" ItemsSource="{Binding Fonts}" ItemDisplayBinding="{Binding Name}" Margin="15,0,0,20"  />
+            <Button x:Name="btnConvert" Text="Convert >" Clicked="btnConvert_Clicked" HeightRequest="35" Margin="10,0,0,0" BackgroundColor="DarkBlue" TextColor="White" />
+        </HorizontalStackLayout>
+        <ScrollView>
+            <Grid ColumnDefinitions="*, *">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
 
-            <VerticalStackLayout >
-                <Label Text="Malayalam Ascii" Margin="15,0,0,0" />
-                <Editor x:Name="txtSourceText" MinimumHeightRequest="550" Placeholder="Enter the source ascii text" Margin="10,5,10,10"  />
-            </VerticalStackLayout>
+                <VerticalStackLayout >
+                    <Label Text="Malayalam Ascii" Margin="15,0,0,0" />
+                    <Editor x:Name="txtSourceText" MinimumHeightRequest="550" AutoSize="TextChanges" Placeholder="Enter the source ascii text" Margin="10,5,10,10"  />
+                </VerticalStackLayout>
 
-            <VerticalStackLayout Grid.Column="1" >
-                <Label Text="Malayalam Unicode" Margin="15,0,0,0" />
-                <Editor x:Name="txtDesinationText" MinimumHeightRequest="550" IsReadOnly="True" Margin="10,5,10,10" />
-            </VerticalStackLayout>
-        </Grid>
+                <VerticalStackLayout Grid.Column="1" >
+                    <Label Text="Malayalam Unicode" Margin="15,0,0,0" />
+                    <Editor x:Name="txtDesinationText" MinimumHeightRequest="550" AutoSize="TextChanges" IsReadOnly="True" Margin="10,5,10,10" />
+                </VerticalStackLayout>
+            </Grid>
+        </ScrollView>
     </VerticalStackLayout>
 </ContentPage>

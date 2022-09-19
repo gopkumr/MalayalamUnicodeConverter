@@ -1,8 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MalayalamConverter.UI.MainPage">
-
+             x:Class="MalayalamConverter.UI.MainPage"
+             Title=" ">
+    <ContentPage.MenuBarItems>
+        <MenuBarItem Text="Tools">
+            <MenuFlyoutItem x:Name="mnuAsciiConverter" Text="Ascii Converter"
+                            Clicked="mnuAsciiConverter_Clicked" />
+            <MenuFlyoutItem x:Name="mnuTypeMalayalam" Text="Type Malayalam"
+                            Clicked="mnuTypeMalayalam_Clicked" />
+        </MenuBarItem>
+    </ContentPage.MenuBarItems>
     <ScrollView>
         <VerticalStackLayout
             Spacing="25"
@@ -16,23 +24,16 @@
                 HorizontalOptions="Center" />
 
             <Label
-                Text="Hello, World!"
+                Text="Hello!"
                 SemanticProperties.HeadingLevel="Level1"
                 FontSize="32"
                 HorizontalOptions="Center" />
 
             <Label
-                Text="Welcome to .NET Multi-platform App UI"
+                Text="Welcome to malayalam typing support"
                 SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                SemanticProperties.Description="Welcome to malayalam typing support"
                 FontSize="18"
-                HorizontalOptions="Center" />
-
-            <Button
-                x:Name="CounterBtn"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />
 
         </VerticalStackLayout>
