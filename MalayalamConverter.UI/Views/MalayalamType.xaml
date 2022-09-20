@@ -7,7 +7,7 @@
     <VerticalStackLayout>
         <HorizontalStackLayout>
             <ActivityIndicator x:Name="spinner" IsRunning="False"  Margin="10,0,0,0"/>
-            <!--<Picker x:Name="lstFont" ItemsSource="{Binding Fonts}" ItemDisplayBinding="{Binding Name}" Margin="15,0,0,0" Title="Select a font" SelectedIndexChanged="lstFont_SelectedIndexChanged" />-->
+            <Picker x:Name="lstFont" ItemsSource="{Binding Fonts}" ItemDisplayBinding="{Binding Name}" Margin="15,0,0,0" Title="Select a font" SelectedIndexChanged="lstFont_SelectedIndexChanged" />
             <Switch IsToggled="false" x:Name="toggleSuggestions" Margin="10,0,0,0"  />
         </HorizontalStackLayout>
         <ScrollView Margin="20">

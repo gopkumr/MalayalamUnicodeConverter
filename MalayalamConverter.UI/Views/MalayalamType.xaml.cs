@@ -63,22 +63,25 @@ public partial class MalayalamType : ContentPage
                             var suggestions = innerData.Skip(1).First().Value<JArray>();
 
                             var options = suggestions.Select(q => q.Value<string>()).ToArray();
+                            var mapping = MalayalamConverter.Core.MalayalamFonts.GetMapContentForFont("ML-Karthika-Normal");
 
                             if (toggleSuggestions.IsToggled)
                             {
                                 string action = await DisplayActionSheet($"Suggestions for {word}", "Cancel", null, options);
-                                processedWord = action;
-
                                 if (action != null && action != "Cancel")
                                 {
-                                    txtTextArea.UpdateText(txtTextArea.Text.Replace(lastword, action));
+                                    var ascii = MalayalamConverter.Core.Converter.ConvertMalayalamUnicodeToAscii(action, mapping);
+                                    processedWord = ascii;
+                                    txtTextArea.UpdateText(txtTextArea.Text.Replace(lastword, ascii));
 
                                 }
                             }
                             else
                             {
-                                txtTextArea.UpdateText(txtTextArea.Text.Replace(lastword, options.First()));
-                                processedWord = options.First();
+                                
+                                var ascii = MalayalamConverter.Core.Converter.ConvertMalayalamUnicodeToAscii(options.First(), mapping);
+                                txtTextArea.UpdateText(txtTextArea.Text.Replace(lastword, ascii));
+                                processedWord = ascii;
                             }
                         }
                     }
@@ -88,9 +91,9 @@ public partial class MalayalamType : ContentPage
         }
     }
 
-    //private void lstFont_SelectedIndexChanged(object sender, EventArgs e)
-    //{
-    //    string fontFamily = (lstFont.SelectedItem as dynamic).Name;
-    //    txtTextArea.FontFamily = fontFamily;
-    //}
+    private void lstFont_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        string fontFamily = (lstFont.SelectedItem as dynamic).Name;
+        txtTextArea.FontFamily = fontFamily;
+    }
 }
