@@ -115,14 +115,12 @@
                             num = 2;
                             while (place_true)
                             {
-                                var reverseArray = array.ToArray();
-                                reverseArray.Reverse();
 
-                                if (array.Count > 2 && new List<string> { "്" }.Contains((reverseArray[num])))
+                                if (array.Count > 2 && new List<string> { "്" }.Contains((array[(array.Count - num)])))
                                 {
                                     ind = ind + 2;
                                 }
-                                else if (!((reverseArray[(num + 1)..(num - 1)]).Except((new List<string> { " ", "്ര" }).ToArray()).Any()))
+                                else if (!((array.ToArray()[(array.Count - (num + 1))..(array.Count - (num - 1))]).Except((new List<string> { " ", "്ര" }).ToArray()).Any()))
                                 {
                                     ind = ind + 1;
                                 }
@@ -130,18 +128,22 @@
                                 {
                                     place_true = false;
                                 }
+
                                 num = num + 2;
+                                if (array.Count <= num)
+                                    num = array.Count - 1;
+
                             }
-                            array.Insert((array.Count-ind), inputstring[k].ToString());
+                            array.Insert((array.Count - ind), inputstring[k].ToString());
                         }
-                        else if (!((new List<char> { '്', 'ര' }).Except(inputstring[k..((k + 2) > inputstring.Length ? inputstring.Length : k + 2)])).Any())
+                        else if ((new List<char[]> { new char[] { '്', 'ര' }}).Contains(inputstring.ToArray()[k..((k + 2) > inputstring.Length ? inputstring.Length : k + 2)]))
                         {
                             ind = 1;
                             place_true = true;
                             num = 2;
                             while (place_true)
                             {
-                                if (array.Count > 2 && new List<string> { "്" }.Contains(array[-1 * num]))
+                                if (array.Count > 2 && new List<string> { "്" }.Contains(array[(array.Count - num)]))
                                 {
                                     ind = ind + 2;
                                 }
@@ -150,9 +152,9 @@
                                     place_true = false;
                                 }
                                 num = num + 1;
-                            }
+                             }
                             skip = true;
-                            array.Insert(-1 * ind, String.Join("", inputstring[k..(k + 2)]));
+                            array.Insert(array.Count - ind, String.Join("", inputstring[k..(k + 2)]));
                         }
                         else
                         {
